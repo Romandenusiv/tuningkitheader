@@ -13,7 +13,9 @@ body {
     margin: auto;
 }
 
-
+header nav {
+    background-color: green;
+}
 
 header .logo {
     font-family: 'Londrina Shadow', cursive;
@@ -27,6 +29,7 @@ header .menu {
     list-style-type: none;
     justify-content: space-around;
     padding: 0;
+
 }
 
 header .menu a {
