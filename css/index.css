@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Outline|Londrina+Shadow|Ubuntu+Condensed&display=swap');
+
+:root {
+    --main-color: black;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Bungee Outline', cursive;
+    --accent-color:black;
+}
+
+
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
+
+
+header .logo {
+    font-family: 'Londrina Shadow', cursive;
+    font-size: 3rem;
+    text-align: center;
+    margin:0;
+}
+
+header .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 0;
+}
+
+header .menu a {
+      color: var(--main-color);
+      text-transform:uppercase;
+      text-decoration: none;
+      border: 1px solid transparent;
+      padding: 5px;
+}
+
+header .menu a:hover {
+    border: 1px solid var(--main-color);
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+}
+
+header .menu {
+    flex: 1;
+}
+
+header .banner {
+    min-height: 500px;
+    background-image: url(../image/auto.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header .banner h1 {
+    color: var(--accent-color);
+    font-size: 3rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main .product-list-brand h2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
