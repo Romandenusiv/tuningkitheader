@@ -66,9 +66,9 @@ header .banner h1 {
     justify-content: center;
 }
 
-main .brends-car h2 {
+main  .brends-car {
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    font-size: 2rem;
+    list-style-type: none;
+    text-decoration: none;
+    justify-content: space-around;
 }
